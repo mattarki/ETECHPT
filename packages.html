@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packages - Valorant Coaching</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+          <img src="logo.png" alt="Valorant Coaching Logo">
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="coaches.html">Coaches</a></li>
+          <li><a href="packages.html">Packages</a></li>
+        </ul>
+      </nav>
+
+  <header>
+    <h1>Coaching Packages</h1>
+    <p>Choose the package that suits your needs and start improving your Valorant skills today.</p>
+  </header>
+
+  <section id="packages">
+    <div class="package">
+      <h2>Beginner Package</h2>
+      <p>Includes:</p>
+      <ul>
+        <li>3 one-on-one coaching sessions</li>
+        <li>Gameplay analysis</li>
+        <li>Strategy development</li>
+      </ul>
+      <p class="price">$99</p>
+      <button class="cta-button" onclick="openModal()">Get Started</button>
+    </div>
+    <div class="package">
+      <h2>Intermediate Package</h2>
+      <p>Includes:</p>
+      <ul>
+        <li>5 one-on-one coaching sessions</li>
+        <li>Gameplay analysis</li>
+        <li>Strategy development</li>
+        <li>VOD review</li>
+      </ul>
+      <p class="price">$199</p>
+      <button class="cta-button" onclick="openModal()">Get Started</button>
+    </div>
+    <div class="package">
+      <h2>Advanced Package</h2>
+      <p>Includes:</p>
+      <ul>
+        <li>10 one-on-one coaching sessions</li>
+        <li>Gameplay analysis</li>
+        <li>Strategy development</li>
+        <li>VOD review</li>
+        <li>Tournament preparation</li>
+      </ul>
+      <p class="price">$399</p>
+      <button class="cta-button" onclick="openModal()">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Sign Up</h2>
+      <p>Please fill out the form below to sign up for the coaching package.</p>
+      <form>
+        <!-- Information fill up here -->
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Diamond Coaching. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // JavaScript code to handle modal functionality
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
