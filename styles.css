@@ -176,9 +176,12 @@ body, h1, h2, p, ul, li {
   }
   
   h1,
-  h2,
-  h3 {
+  h2 {
     color: black;
+  }
+
+  h3 {
+    color: white
   }
   
   .footer {
