@@ -363,3 +363,28 @@ body, h1, h2, p, ul, li {
     font-style: italic;
   }
   
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    color: #fff;
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .feature img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .black-button {
+    background-color: black;
+    color: #fff;
+  }
+  
